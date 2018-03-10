@@ -1,0 +1,126 @@
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <title>.:Gilsimar Habner Monteiro:.</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+      //Exercicio 07
+      var objeto = {
+        meuPrimeiroNome: "Gilsimar",
+        meuSobreNome: "Monteiro",
+        enderecoCompleto: {
+          cep: "84020000",
+          rua: "Av. Colombo",
+          numero: "980",
+          bairro: "Centro",
+          cidade: "Maringá",
+          estado: "Paraná",
+        },
+
+        mostarMinhasInformacoes: function() {
+          alert('Nome: ' + this.meuPrimeiroNome + ' \nSobre Nome: ' + this.meuSobreNome + ' \nCep: ' + this.enderecoCompleto.cep + ' \nRua: ' + this.enderecoCompleto.rua + ' \nBairro: ' + this.enderecoCompleto.bairro + ' \nCidade: ' + this.enderecoCompleto.cidade + ' \nEstado: ' + this.enderecoCompleto.estado + '!');
+        }
+      }
+
+      objeto.mostarMinhasInformacoes();
+
+      /*
+      //Exercicio 06
+      var seuPrimeiroNome = ["Gilsimar"];
+      var endereco = ["84020000", "Av. Colombo", "980", "Centro", "Maringá", "Paraná"];
+      var telefone = 991102030;
+      var dados = [];
+      dados.push(seuPrimeiroNome);
+      dados.push(endereco);
+      dados.push(telefone);
+      console.log(dados);
+      dados.splice(2, 1);
+      console.log(dados);
+      seuPrimeiroNome[0] = "Gilsimar Habner Monteiro";
+      console.log(dados);
+
+      //Exercicicio Hardcore 01
+      function converta(numero) {
+
+        switch (numero) {
+
+          case 1:
+            alert("Seu numero em algorismos romanos é: I"); break;
+          case 2:
+            alert("Seu numero em algorismos romanos é: II"); break;
+          case 3:
+            alert("Seu numero em algorismos romanos é: III"); break;
+          case 4:
+            alert("Seu numero em algorismos romanos é: IV"); break;
+          case 5:
+            alert("Seu numero em algorismos romanos é: V"); break;
+          case 6:
+            alert("Seu numero em algorismos romanos é: VI"); break;
+          case 7:
+            alert("Seu numero em algorismos romanos é: VII"); break;
+          case 8:
+            alert("Seu numero em algorismos romanos é: VIII"); break;
+          case 9:
+            alert("Seu numero em algorismos romanos é: IX"); break;
+          case 10:
+            alert("Seu numero em algorismos romanos é: X"); break;
+      }
+    }
+
+    //Exercicicio 05 e Hardcore 02
+    for(var i = 10; i >= 1; i--){
+      converta(parseInt(i));
+    }
+
+    var j = 10;
+
+    while(j >= 1){
+      converta(parseInt(j));
+      j--;
+    }
+
+      //Exercicicio 04
+      var data = new Date().getDay();
+
+      switch (data) {
+        case 0:
+          alert("Hoje é Domingo!"); break;
+        case 1:
+          alert("Hoje é Segunda!"); break;
+        case 2:
+          alert("Hoje é Terça!"); break;
+        case 3:
+          alert("Hoje é Quarta!"); break;
+        case 4:
+          alert("Hoje é Quinta!"); break;
+        case 5:
+          alert("Hoje é Sexta!"); break;
+        case 6:
+          alert("Hoje é Sábado!"); break;
+      }
+
+      //Exercicicio 01 ao 03
+      var nome = "Gilsimar Habner Monteiro";
+      var idadeGilsimar = 21;
+      var sexoFeminino = false;
+      var kilos = 94.5;
+
+      var idade = prompt("Digite sua Idade:");
+
+      if (idade <=  18) {
+        alert("Você é novinho!");
+      } else if (idade <= 30) {
+        alert("Você é tiozinho!");
+      } else {
+        alert("Você é tiozão!");
+      }
+
+      alert("Olá, "+nome+", você tem "+idadeGilsimar+" anos!");
+      */
+    </script>
+  </body>
+</html>
+# uds-trainee-aula-2
